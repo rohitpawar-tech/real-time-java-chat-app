@@ -113,6 +113,11 @@ cd real-time-java-chat-app
 ```
 
 ---
+### Step 2: Compile the Application
+
+```
+javac ChatApplication.java
+```
 
 ---
 ### Step 1: Clone the Repository
