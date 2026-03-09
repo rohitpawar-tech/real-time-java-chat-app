@@ -171,3 +171,10 @@ Select:
 ```
 2
 ```
+
+
+Enter your username and begin chatting.
+
+You can run multiple client instances to simulate multiple users.
+
+---
