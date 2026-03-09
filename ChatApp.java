@@ -26,4 +26,10 @@ public class ChatApplication {
             startClient();
         }
     }
+ // ================= SERVER =================
 
+    public static void startServer() {
+        try {
+            ServerSocket serverSocket = new ServerSocket(5000);
+            System.out.println("Server started on port 5000...");
+            System.out.println("Waiting for clients...\n");
