@@ -151,3 +151,14 @@ Select option:
 ```
 1
 ```
+
+
+The server will start listening on port **5000**.
+
+---
+
+### Connecting as a Client
+
+Open another terminal and run:
+
+```
