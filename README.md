@@ -57,4 +57,17 @@ This application follows a **Client-Server Architecture**.
 The server runs continuously while clients can join or leave at any time.
 
 ---
+---
+
+## Technologies Used
+
+| Technology                  | Purpose                                  |
+| --------------------------- | ---------------------------------------- |
+| Java                        | Core programming language                |
+| Socket Programming          | Network communication                    |
+| Multithreading              | Handling multiple clients simultaneously |
+| Networking                  | Client-server communication              |
+| Object-Oriented Programming | Application design structure             |
+
+---
 
