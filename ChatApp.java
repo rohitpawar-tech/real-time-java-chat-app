@@ -106,3 +106,4 @@ broadcast("🔵 " + username + " joined the chat");
             System.out.println(message);
         }
     }
+       public static void startClient(){
