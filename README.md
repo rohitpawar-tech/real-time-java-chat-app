@@ -24,3 +24,16 @@ The primary objectives of this project are:
 * To practice object-oriented programming principles
 
 ---
+## Key Features
+
+* Real-time messaging between multiple clients
+* Multi-client support using multithreading
+* Username-based message identification
+* Automatic broadcasting of messages to all connected users
+* Join and leave notifications when users connect or disconnect
+* Timestamped messages for better message tracking
+* Command support to exit the chat
+* Console-based lightweight interface
+* Single-file implementation for simplicity
+
+---
