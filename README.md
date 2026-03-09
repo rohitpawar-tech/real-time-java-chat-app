@@ -106,6 +106,14 @@ This workflow enables real-time group communication.
 * Java JDK 8 or later
 * Command Line Interface (Terminal or Command Prompt)
 
+  Navigate to the project folder.
+
+```
+cd real-time-java-chat-app
+```
+
+---
+
 ---
 ### Step 1: Clone the Repository
 
