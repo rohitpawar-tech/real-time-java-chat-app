@@ -219,3 +219,17 @@ Possible enhancements for this project include:
 * WebSocket based implementation
 
 ---
+
+
+## Use Cases
+
+This project can be used for:
+
+* Learning Java networking fundamentals
+* Demonstrating socket programming in interviews
+* Academic networking assignments
+* Understanding real-time communication systems
+* Portfolio and GitHub projects
+
+---
+
