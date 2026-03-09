@@ -45,3 +45,7 @@ public class ChatApplication {
                 Thread thread = new Thread(client);
                 thread.start();
             }
+    } catch(Exception e){
+            e.printStackTrace();
+        }
+    }
