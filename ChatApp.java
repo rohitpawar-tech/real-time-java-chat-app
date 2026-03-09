@@ -63,4 +63,4 @@ public class ChatApplication {
                 output = new PrintWriter(socket.getOutputStream(), true);
 
                 username = input.readLine();
-
+broadcast("🔵 " + username + " joined the chat");
