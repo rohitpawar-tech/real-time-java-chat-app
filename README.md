@@ -12,3 +12,15 @@ This project focuses on core networking concepts such as socket communication, m
 The application is designed as a learning project to understand how real-time communication systems work at a fundamental level using Java.
 
 ---
+## Objectives
+
+The primary objectives of this project are:
+
+* To understand Java networking concepts
+* To implement client-server architecture
+* To learn socket programming
+* To handle multiple clients using multithreading
+* To implement real-time communication between users
+* To practice object-oriented programming principles
+
+---
