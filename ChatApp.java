@@ -86,4 +86,5 @@ broadcast("🔵 " + username + " joined the chat");
                             .format(new Date());
  broadcast("[" + time + "] " + username + ": " + message);
                 }
-
+            } catch(Exception e){
+            }
