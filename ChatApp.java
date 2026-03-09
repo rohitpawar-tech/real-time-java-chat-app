@@ -84,4 +84,6 @@ broadcast("🔵 " + username + " joined the chat");
 
                                         String time = new SimpleDateFormat("HH:mm:ss")
                             .format(new Date());
+ broadcast("[" + time + "] " + username + ": " + message);
+                }
 
