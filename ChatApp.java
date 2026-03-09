@@ -128,3 +128,13 @@ broadcast("🔵 " + username + " joined the chat");
             System.out.println("Type /exit to leave the chat\n");
             
             Thread receiveThread = new Thread(() -> {
+                                try{
+
+                    String msg;
+
+                    while((msg = input.readLine()) != null){
+                        System.out.println(msg);
+                    }
+
+                } catch(Exception e){}
+            });
