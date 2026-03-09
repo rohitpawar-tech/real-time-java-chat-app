@@ -184,6 +184,22 @@ Typing `/exit` will close the client connection and notify other users in the ch
 ---
 
 
+## Learning Outcomes
+
+This project helps in understanding the following concepts:
+
+* Java Networking APIs
+* Socket Communication
+* Client-Server System Design
+* Multithreading in Java
+* Real-Time Message Broadcasting
+* Handling Concurrent Client Connections
+
+It is a good beginner project for developers interested in networking and distributed systems.
+
+---
+
+
 Enter your username and begin chatting.
 
 You can run multiple client instances to simulate multiple users.
