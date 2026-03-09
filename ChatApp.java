@@ -107,3 +107,10 @@ broadcast("🔵 " + username + " joined the chat");
         }
     }
        public static void startClient(){
+           
+        try{
+
+            Scanner scanner = new Scanner(System.in);
+
+            System.out.print("Enter server IP: ");
+            String host = scanner.nextLine();
