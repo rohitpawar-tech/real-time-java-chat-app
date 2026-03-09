@@ -47,4 +47,14 @@ This application follows a **Client-Server Architecture**.
 * Manages active client sessions
 * Broadcasts messages to all connected clients
 * Handles client disconnections
+* ### Client Responsibilities
+
+* Connects to the chat server
+* Sends messages to the server
+* Receives broadcasted messages from other users
+* Allows the user to exit the chat session
+
+The server runs continuously while clients can join or leave at any time.
+
+---
 
