@@ -69,3 +69,8 @@ broadcast("🔵 " + username + " joined the chat");
                 e.printStackTrace();
             }
         }
+
+            
+        public void run(){
+
+            String message;
