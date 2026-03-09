@@ -57,5 +57,6 @@ public class ChatApplication {
         BufferedReader input;
         PrintWriter output;
         String username;
-
+                input = new BufferedReader(
+                        new InputStreamReader(socket.getInputStream()));
 
