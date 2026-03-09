@@ -98,3 +98,13 @@ The project is intentionally kept minimal with a single Java file to make it eas
 This workflow enables real-time group communication.
 
 ---
+
+## Installation and Setup
+
+### Prerequisites
+
+* Java JDK 8 or later
+* Command Line Interface (Terminal or Command Prompt)
+
+---
+
