@@ -51,6 +51,9 @@ public class ChatApplication {
     }
         static class ClientHandler implements Runnable {
                  Socket socket;
+                    ClientHandler(Socket socket){
+            try{
+                this.socket = socket;
         BufferedReader input;
         PrintWriter output;
         String username;
