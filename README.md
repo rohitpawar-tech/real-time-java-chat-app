@@ -37,3 +37,7 @@ The primary objectives of this project are:
 * Single-file implementation for simplicity
 
 ---
+## System Architecture
+
+This application follows a **Client-Server Architecture**.
+
