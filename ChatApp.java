@@ -138,3 +138,17 @@ broadcast("🔵 " + username + " joined the chat");
 
                 } catch(Exception e){}
             });
+                        receiveThread.start();
+
+            while(true){
+
+                String msg = scanner.nextLine();
+
+                output.println(msg);
+
+                if(msg.equalsIgnoreCase("/exit")){
+                    socket.close();
+                    break;
+                }
+            }
+
