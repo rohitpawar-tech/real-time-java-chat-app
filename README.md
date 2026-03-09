@@ -107,4 +107,9 @@ This workflow enables real-time group communication.
 * Command Line Interface (Terminal or Command Prompt)
 
 ---
+### Step 1: Clone the Repository
+
+```
+git clone :https://github.com/rohitpawar-tech/real-time-java-chat-app/tree/main
+```
 
