@@ -96,3 +96,13 @@ broadcast("🔵 " + username + " joined the chat");
                         clients.remove(this);
             broadcast("🔴 " + username + " left the chat");
         }
+
+        void broadcast(String message){
+
+            for(ClientHandler client : clients){
+                client.output.println(message);
+            }
+
+            System.out.println(message);
+        }
+    }
