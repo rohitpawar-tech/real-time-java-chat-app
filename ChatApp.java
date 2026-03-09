@@ -88,3 +88,7 @@ broadcast("🔵 " + username + " joined the chat");
                 }
             } catch(Exception e){
             }
+
+            try{
+                socket.close();
+            } catch(Exception e){}
