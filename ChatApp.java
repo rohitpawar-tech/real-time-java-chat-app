@@ -115,3 +115,6 @@ broadcast("🔵 " + username + " joined the chat");
 
             System.out.print("Enter server IP: ");
             String host = scanner.nextLine();
+               BufferedReader input = new BufferedReader(
+                    new InputStreamReader(socket.getInputStream()));
+
