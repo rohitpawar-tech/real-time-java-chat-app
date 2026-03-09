@@ -81,3 +81,7 @@ broadcast("🔵 " + username + " joined the chat");
                     if(message.equalsIgnoreCase("/exit")){
                         break;
                     }
+
+                                        String time = new SimpleDateFormat("HH:mm:ss")
+                            .format(new Date());
+
