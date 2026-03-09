@@ -49,3 +49,5 @@ public class ChatApplication {
             e.printStackTrace();
         }
     }
+        static class ClientHandler implements Runnable {
+
