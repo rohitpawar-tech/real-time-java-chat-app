@@ -173,6 +173,17 @@ Select:
 ```
 
 
+## Commands
+
+| Command | Description                     |
+| ------- | ------------------------------- |
+| /exit   | Disconnect from the chat server |
+
+Typing `/exit` will close the client connection and notify other users in the chat.
+
+---
+
+
 Enter your username and begin chatting.
 
 You can run multiple client instances to simulate multiple users.
