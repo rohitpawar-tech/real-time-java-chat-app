@@ -125,4 +125,10 @@ javac ChatApplication.java
 ```
 git clone :https://github.com/rohitpawar-tech/real-time-java-chat-app/tree/main
 ```
+---
 
+### Step 3: Run the Application
+
+```
+java ChatApplication
+```
