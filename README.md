@@ -9,3 +9,6 @@ lient-server architecture where multiple clients can
 connect to a central server and exchange messages in real 
 time.
 This project focuses on core networking concepts such as socket communication, multithreading, and real-time message broadcasting. Each connected client can send messages that are instantly delivered to all other users connected to the server.
+The application is designed as a learning project to understand how real-time communication systems work at a fundamental level using Java.
+
+---
