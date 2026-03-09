@@ -92,3 +92,7 @@ broadcast("🔵 " + username + " joined the chat");
             try{
                 socket.close();
             } catch(Exception e){}
+
+                        clients.remove(this);
+            broadcast("🔴 " + username + " left the chat");
+        }
