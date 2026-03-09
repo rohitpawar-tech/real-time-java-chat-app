@@ -109,6 +109,7 @@ broadcast("🔵 " + username + " joined the chat");
        public static void startClient(){
            
         try{
+                        Socket socket = new Socket(host, 5000);
 
             Scanner scanner = new Scanner(System.in);
 
