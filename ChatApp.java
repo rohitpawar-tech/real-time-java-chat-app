@@ -33,3 +33,15 @@ public class ChatApplication {
             ServerSocket serverSocket = new ServerSocket(5000);
             System.out.println("Server started on port 5000...");
             System.out.println("Waiting for clients...\n");
+
+   
+
+            while(true){
+                Socket socket = serverSocket.accept();
+
+                ClientHandler client = new ClientHandler(socket);
+                clients.add(client);
+
+                Thread thread = new Thread(client);
+                thread.start();
+            }
