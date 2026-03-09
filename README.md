@@ -70,4 +70,14 @@ The server runs continuously while clients can join or leave at any time.
 | Object-Oriented Programming | Application design structure             |
 
 ---
+---
+
+## Project Structure
+
+```
+real-time-java-chat-app
+│
+├── ChatApplication.java
+└── README.md
+```
 
