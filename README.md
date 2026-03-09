@@ -140,3 +140,14 @@ You will be prompted to choose an option:
 1 - Start Server
 2 - Start Client
 ```
+
+
+---
+
+### Starting the Server
+
+Select option:
+
+```
+1
+```
