@@ -64,3 +64,8 @@ public class ChatApplication {
 
                 username = input.readLine();
 broadcast("🔵 " + username + " joined the chat");
+                
+            } catch(Exception e){
+                e.printStackTrace();
+            }
+        }
