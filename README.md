@@ -85,3 +85,16 @@ real-time-java-chat-app
 The project is intentionally kept minimal with a single Java file to make it easier for beginners to understand the networking and communication logic.
 
 ---
+
+## How the Application Works
+
+1. The server starts and begins listening on port **5000**.
+2. Clients connect to the server using the provided client option.
+3. Each client enters a username to join the chat.
+4. Messages sent by any client are forwarded to the server.
+5. The server broadcasts the message to all connected clients.
+6. When a client leaves the chat, the server notifies other users.
+
+This workflow enables real-time group communication.
+
+---
