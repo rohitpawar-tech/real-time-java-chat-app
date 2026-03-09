@@ -124,3 +124,5 @@ broadcast("🔵 " + username + " joined the chat");
             System.out.print("Enter your username: ");
             String username = scanner.nextLine();
         output.println(username);
+                       System.out.println("\nConnected to chat server!");
+            System.out.println("Type /exit to leave the chat\n");
