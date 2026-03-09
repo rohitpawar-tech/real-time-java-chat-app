@@ -126,3 +126,5 @@ broadcast("🔵 " + username + " joined the chat");
         output.println(username);
                        System.out.println("\nConnected to chat server!");
             System.out.println("Type /exit to leave the chat\n");
+            
+            Thread receiveThread = new Thread(() -> {
