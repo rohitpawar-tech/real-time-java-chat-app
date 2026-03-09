@@ -11,3 +11,8 @@ public class ChatApplication {
     public static void main(String[] args) throws Exception {
 
         Scanner scanner = new Scanner(System.in);
+
+        System.out.println("========= JAVA CHAT APPLICATION =========");
+        System.out.println("1. Start Server");
+        System.out.println("2. Start Client");
+        System.out.print("Choose option: ");
