@@ -81,3 +81,7 @@ real-time-java-chat-app
 └── README.md
 ```
 
+
+The project is intentionally kept minimal with a single Java file to make it easier for beginners to understand the networking and communication logic.
+
+---
