@@ -121,4 +121,5 @@ broadcast("🔵 " + username + " joined the chat");
                     new InputStreamReader(socket.getInputStream()));
             PrintWriter output = new PrintWriter(
                     socket.getOutputStream(), true);
-
+            System.out.print("Enter your username: ");
+            String username = scanner.nextLine();
