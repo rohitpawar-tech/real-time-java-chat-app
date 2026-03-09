@@ -74,3 +74,10 @@ broadcast("🔵 " + username + " joined the chat");
         public void run(){
 
             String message;
+                        try{
+
+                while((message = input.readLine()) != null){
+
+                    if(message.equalsIgnoreCase("/exit")){
+                        break;
+                    }
