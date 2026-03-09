@@ -50,4 +50,9 @@ public class ChatApplication {
         }
     }
         static class ClientHandler implements Runnable {
+                 Socket socket;
+        BufferedReader input;
+        PrintWriter output;
+        String username;
+
 
