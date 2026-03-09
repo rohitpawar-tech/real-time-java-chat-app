@@ -40,4 +40,11 @@ The primary objectives of this project are:
 ## System Architecture
 
 This application follows a **Client-Server Architecture**.
+### Server Responsibilities
+
+* Listens for incoming client connections
+* Accepts multiple client connections
+* Manages active client sessions
+* Broadcasts messages to all connected clients
+* Handles client disconnections
 
