@@ -205,3 +205,17 @@ Enter your username and begin chatting.
 You can run multiple client instances to simulate multiple users.
 
 ---
+
+
+## Future Improvements
+
+Possible enhancements for this project include:
+
+* Graphical user interface using Java Swing or JavaFX
+* Private messaging between users
+* Chat rooms or group channels
+* Message encryption for secure communication
+* Persistent chat history using a database
+* WebSocket based implementation
+
+---
