@@ -151,4 +151,8 @@ broadcast("🔵 " + username + " joined the chat");
                     break;
                 }
             }
-
+        } catch(Exception e){
+            System.out.println("Unable to connect to server");
+        }
+    }
+}
