@@ -119,5 +119,6 @@ broadcast("🔵 " + username + " joined the chat");
                     new InputStreamReader(socket.getInputStream()));
                         BufferedReader input = new BufferedReader(
                     new InputStreamReader(socket.getInputStream()));
-
+            PrintWriter output = new PrintWriter(
+                    socket.getOutputStream(), true);
 
