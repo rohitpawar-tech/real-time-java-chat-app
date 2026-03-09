@@ -132,3 +132,11 @@ git clone :https://github.com/rohitpawar-tech/real-time-java-chat-app/tree/main
 ```
 java ChatApplication
 ```
+
+
+You will be prompted to choose an option:
+
+```
+1 - Start Server
+2 - Start Client
+```
