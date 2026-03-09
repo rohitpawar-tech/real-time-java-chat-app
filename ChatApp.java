@@ -16,3 +16,14 @@ public class ChatApplication {
         System.out.println("1. Start Server");
         System.out.println("2. Start Client");
         System.out.print("Choose option: ");
+        
+
+        int option = scanner.nextInt();
+
+        if(option == 1){
+            startServer();
+        } else {
+            startClient();
+        }
+    }
+
